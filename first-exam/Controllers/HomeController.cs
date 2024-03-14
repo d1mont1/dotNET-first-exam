@@ -34,8 +34,16 @@ namespace first_exam.Controllers
             _local = local;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string culture, string cultureUI)
         {
+            if(!string.IsNullOrEmpty(culture)) {
+                CultureInfo.CurrentCulture = new CultureInfo(culture);
+                CultureInfo.CurrentUICulture = new CultureInfo(culture);
+            }
+            ViewBag.aboutus = _local["aboutus"];
+
+            GetCulture(culture);
+
             _logger.LogInformation("testInfo");
             _logger.LogError("testInfo");
             return View();
@@ -43,8 +51,8 @@ namespace first_exam.Controllers
 
         public IActionResult Login()
         {
-            _logger.LogInformation("testInfo");
-            _logger.LogError("testInfo");
+            _logger.LogInformation("LoginInfo");
+            _logger.LogError("LoginInfo");
             return View();
         }
 
@@ -66,6 +74,19 @@ namespace first_exam.Controllers
         public IActionResult Integrations()
         {
             return View();
+        }
+
+        public string GetCulture(string code = "")
+        {
+            if (!string.IsNullOrWhiteSpace(code))
+            {
+                CultureInfo.CurrentCulture = new CultureInfo(code);
+                CultureInfo.CurrentUICulture = new CultureInfo(code);
+
+                ViewBag.Culture = string.Format("CurrentCulture: {0}, CurrentUICulture: {1}", CultureInfo.CurrentCulture,
+                    CultureInfo.CurrentUICulture);
+            }
+            return "";
         }
     }
 }

@@ -4,6 +4,10 @@
 @using Microsoft.Extensions.Options
 @using System.Globalization
 
+@{
+    var cultureList = locOptions.Value.SupportedUICultures;
+}
+
 
 @inject Microsoft.AspNetCore.Http.IHttpContextAccessor _httpContext
 @inject IOptions<RequestLocalizationOptions> locOptions
@@ -11,6 +15,9 @@
 
 
 <div class="wrapper">
+
+    
+            
             <div class="section hero">
                 <div class="container hero-wrapper w-container">
                     <div class="hero-text-box">
@@ -22,7 +29,7 @@
                             </p>
                         </div>
                         <div class="spacer _16"></div>
-                        <a href="@Url.Action("Register", "Home")" class="button w-button">@_lang["aboutus"]</a
+                        <a href="@Url.Action("Register", "Home")" class="button w-button">Get Started</a
                         ><a href="/features" class="button arrow w-button">Learn more</a>
                         <div class="spacer _128 mobile-small"></div>
                     </div>
@@ -606,3 +613,25 @@
                 </div>
             </div>
         </div>
+
+<h3>@_lang["aboutus"] - @ViewBag.Culture</h3>
+
+<form asp-action="Index" id="cultureForm">
+    <label>Language: </label>
+    <select onchange="SetCulture(this.value);">
+        <option selected value="">Выберете язык</option>
+
+        @foreach (CultureInfo item in cultureList)
+        {
+            <option value="@item.Name">@item.Name | @item.DisplayName</option>
+        }
+    </select>
+</form>
+
+<script>
+    function SetCulture(selectedCulture) {
+        var culture = "/?culture=" + selectedCulture + "&cultureUI=" + selectedCulture;
+        document.getElementById("cultureForm").action = culture;
+        document.getElementById("cultureForm").submit();
+    }
+</script>
