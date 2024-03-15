@@ -2,7 +2,6 @@ using first_exam.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +10,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Serilog;
 using Serilog.Events;
-using Serilog.Formatting.Compact;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -35,11 +33,11 @@ namespace first_exam
             services.AddControllersWithViews();
 
             Log.Logger = new LoggerConfiguration()
-            .MinimumLevel.Debug()
+            .MinimumLevel.Information()
             .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
             .Enrich.FromLogContext()
             .WriteTo.Console()
-            .WriteTo.File(new RenderedCompactJsonFormatter(), "logs/log.txt", rollingInterval: RollingInterval.Day)
+            .WriteTo.File("log.txt", buffered: true)
             .CreateLogger();
 
             services.AddLogging(loggingBuilder =>
@@ -56,6 +54,7 @@ namespace first_exam
                     new CultureInfo("kk-KZ"),
                     new CultureInfo("en-US"),
                 };
+
                 options.DefaultRequestCulture = new RequestCulture("ru-RU", "ru-RU");
 
                 options.SupportedCultures = culturies;
@@ -66,9 +65,6 @@ namespace first_exam
             {
                 options.ResourcesPath = "Resources";
             });
-
-            Log.Logger = new LoggerConfiguration()
-                .WriteTo.Seq("http://localhost:5341/").CreateLogger();
 
             services.AddSingleton<Serilog.ILogger>(Log.Logger);
 
@@ -81,7 +77,7 @@ namespace first_exam
             {
                 options.IdleTimeout = TimeSpan.FromSeconds(10);
                 options.Cookie.HttpOnly = true;
-                options.Cookie.Name = "HotelAtrSession";
+                options.Cookie.Name = "Dinmukhkammed_Exam";
             });
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>

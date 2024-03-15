@@ -1,0 +1,280 @@
+2024-03-15 23:30:08.872 +05:00 [INF] User profile is available. Using 'C:\Users\dimonti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 23:30:09.626 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 23:30:09.627 +05:00 [INF] Hosting environment: Development
+2024-03-15 23:30:09.627 +05:00 [INF] Content root path: C:\Users\dimonti\Desktop\dotNET-first-exam\first-exam
+2024-03-15 23:30:09.688 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - -
+2024-03-15 23:30:09.956 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:30:10.061 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-15 23:30:10.203 +05:00 [INF] testInfo
+2024-03-15 23:30:10.203 +05:00 [ERR] testInfo
+2024-03-15 23:30:10.220 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-15 23:30:10.445 +05:00 [INF] Executed ViewResult - view Index executed in 232.2515ms.
+2024-03-15 23:30:10.452 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 388.8545ms
+2024-03-15 23:30:10.453 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:30:10.457 +05:00 [INF] HTTP GET / responded 200 in 498.7057 ms
+2024-03-15 23:30:10.480 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - - - 200 - text/html;+charset=utf-8 798.1416ms
+2024-03-15 23:30:10.532 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-15 23:30:10.534 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/grey-20hamburger-20icon.svg - -
+2024-03-15 23:30:10.536 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 0.1431 ms
+2024-03-15 23:30:10.547 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 14.9834ms
+2024-03-15 23:30:10.579 +05:00 [INF] Sending file. Request path: '/images/grey-20hamburger-20icon.svg'. Physical path: 'C:\Users\dimonti\Desktop\dotNET-first-exam\first-exam\wwwroot\images\grey-20hamburger-20icon.svg'
+2024-03-15 23:30:10.581 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/grey-20hamburger-20icon.svg - - - 200 278 image/svg+xml 45.5716ms
+2024-03-15 23:30:10.636 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-15 23:30:10.645 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 4.7387ms
+2024-03-15 23:30:10.891 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/frame-20145.png - -
+2024-03-15 23:30:10.894 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - -
+2024-03-15 23:30:10.946 +05:00 [INF] Sending file. Request path: '/images/graphics-20and-20charts_flatline.svg'. Physical path: 'C:\Users\dimonti\Desktop\dotNET-first-exam\first-exam\wwwroot\images\graphics-20and-20charts_flatline.svg'
+2024-03-15 23:30:10.946 +05:00 [INF] Sending file. Request path: '/images/frame-20145.png'. Physical path: 'C:\Users\dimonti\Desktop\dotNET-first-exam\first-exam\wwwroot\images\frame-20145.png'
+2024-03-15 23:30:10.948 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - - - 200 38674 image/svg+xml 53.0318ms
+2024-03-15 23:30:10.950 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/frame-20145.png - - - 200 103659 image/png 58.4499ms
+2024-03-15 23:30:10.967 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/i2024-03-15 23:47:49.964 +05:00 [INF] User profile is available. Using 'C:\Users\dimonti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 23:47:50.458 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 23:47:50.459 +05:00 [INF] Hosting environment: Development
+2024-03-15 23:47:50.459 +05:00 [INF] Content root path: C:\Users\dimonti\Desktop\dotNET-first-exam\first-exam
+2024-03-15 23:47:50.500 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - -
+2024-03-15 23:47:50.827 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:47:50.924 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-15 23:47:50.973 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-15 23:47:50.973 +05:00 [ERR] TEST-LOG-ERROR-123
+2024-03-15 23:47:50.991 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-15 23:47:51.349 +05:00 [INF] Executed ViewResult - view Index executed in 362.4401ms.
+2024-03-15 23:47:51.355 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 429.7657ms
+2024-03-15 23:47:51.357 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:47:51.361 +05:00 [INF] HTTP GET / responded 200 in 531.4246 ms
+2024-03-15 23:47:51.385 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - - - 200 - text/html;+charset=utf-8 887.8380ms
+2024-03-15 23:47:51.461 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-15 23:47:51.468 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 3.6530 ms
+2024-03-15 23:47:51.489 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 22.5977ms
+2024-03-15 23:47:51.550 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-15 23:47:51.557 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 3.7306ms
+2024-03-15 23:47:51.868 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/grey-20hamburger-20icon.svg - -
+2024-03-15 23:47:51.870 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/23111_report_analysis_flatline.svg - -
+2024-03-15 23:47:51.872 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/vector.svg - -
+2024-03-15 23:47:51.878 +05:00 [INF] The file /images/vector.svg was not modified
+2024-03-15 23:47:51.878 +05:00 [INF] The file /images/23111_report_analysis_flatline.svg was not modified
+2024-03-15 23:47:51.878 +05:00 [INF] The file /images/grey-20hamburger-20icon.svg was not modified
+2024-03-15 23:47:51.883 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/23111_report_analysis_flatline.svg - - - 304 - image/svg+xml 13.3234ms
+2024-03-15 23:47:51.886 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/linkedin-20-20negative.svg - -
+2024-03-15 23:47:51.887 +05:00 [INF] The file /images/linkedin-20-20negative.svg was not modified
+2024-03-15 23:47:51.887 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/linkedin-20-20negative.svg - - - 304 - image/svg+xml 1.2396ms
+2024-03-15 23:47:51.888 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/facebook-20-20negative.svg - -
+2024-03-15 23:47:51.888 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/vector.svg - - - 304 - image/svg+xml 16.6303ms
+2024-03-15 23:47:51.888 +05:00 [INF] The file /images/facebook-20-20negative.svg was not modified
+2024-03-15 23:47:51.889 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/grey-20hamburger-20icon.svg - - - 304 - image/svg+xml 20.8253ms
+2024-03-15 23:47:51.889 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/facebook-20-20negative.svg - - - 304 - image/svg+xml 0.7711ms
+2024-03-15 23:47:51.890 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - -
+2024-03-15 23:47:51.891 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/frame-20145.png - -
+2024-03-15 23:47:51.892 +05:00 [INF] The file /images/frame-20145.png was not modified
+2024-03-15 23:47:51.893 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/frame-20145.png - - - 304 - image/png 2.0051ms
+2024-03-15 23:47:51.909 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - -
+2024-03-15 23:47:51.911 +05:00 [INF] The file /images/graphics-20and-20charts_flatline.svg was not modified
+2024-03-15 23:47:51.913 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - - - 304 - image/svg+xml 3.6866ms
+2024-03-15 23:47:51.986 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 96.6493ms
+2024-03-15 23:47:55.680 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44315/?culture=ru-RU&cultureUI=ru-RU application/x-www-form-urlencoded 182
+2024-03-15 23:47:55.707 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:47:55.708 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-15 23:47:55.733 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-15 23:47:55.733 +05:00 [ERR] TEST-LOG-ERROR-123
+2024-03-15 23:47:55.733 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-15 23:47:55.740 +05:00 [INF] Executed ViewResult - view Index executed in 6.7103ms.
+2024-03-15 23:47:55.740 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 31.6366ms
+2024-03-15 23:47:55.740 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:47:55.740 +05:00 [INF] HTTP POST / responded 200 in 32.8879 ms
+2024-03-15 23:47:55.742 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44315/?culture=ru-RU&cultureUI=ru-RU application/x-www-form-urlencoded 182 - 200 - text/html;+charset=utf-8 62.5785ms
+2024-03-15 23:47:55.779 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - -
+2024-03-15 23:47:55.779 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-15 23:47:55.782 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-15 23:47:55.783 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 0.0075 ms
+2024-03-15 23:47:55.786 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 6.6638ms
+2024-03-15 23:47:55.793 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 4.1602ms
+2024-03-15 23:47:55.839 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.6633ms
+2024-03-15 23:48:00.385 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44315/?culture=kk-KZ&cultureUI=kk-KZ application/x-www-form-urlencoded 182
+2024-03-15 23:48:00.404 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:48:2024-03-15 23:48:51.433 +05:00 [INF] User profile is available. Using 'C:\Users\dimonti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 23:48:51.927 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 23:48:51.928 +05:00 [INF] Hosting environment: Development
+2024-03-15 23:48:51.928 +05:00 [INF] Content root path: C:\Users\dimonti\Desktop\dotNET-first-exam\first-exam
+2024-03-15 23:48:51.981 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - -
+2024-03-15 23:48:52.246 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:48:52.351 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-15 23:48:52.407 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-15 23:48:52.407 +05:00 [ERR] TEST-LOG-ERROR-123
+2024-03-15 23:48:52.423 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-15 23:48:52.742 +05:00 [INF] Executed ViewResult - view Index executed in 321.9894ms.
+2024-03-15 23:48:52.748 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 395.1962ms
+2024-03-15 23:48:52.750 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:48:52.754 +05:00 [INF] HTTP GET / responded 200 in 505.2018 ms
+2024-03-15 23:48:52.787 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - - - 200 - text/html;+charset=utf-8 808.9850ms
+2024-03-15 23:48:52.789 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-15 23:48:52.822 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 0.1826 ms
+2024-03-15 23:48:52.826 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 37.2913ms
+2024-03-15 23:48:52.869 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-15 23:48:52.874 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - -
+2024-03-15 23:48:52.882 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 7.6119ms
+2024-03-15 23:48:53.001 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 127.3666ms
+2024-03-15 23:48:59.541 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44315/?culture=kk-KZ&cultureUI=kk-KZ application/x-www-form-urlencoded 182
+2024-03-15 23:48:59.566 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:48:59.567 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-15 23:48:59.601 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-15 23:48:59.601 +05:00 [ERR] TEST-LOG-ERROR-123
+2024-03-15 23:48:59.602 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-15 23:48:59.654 +05:00 [INF] Executed ViewResult - view Index executed in 52.3867ms.
+2024-03-15 23:48:59.654 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 86.8268ms
+2024-03-15 23:48:59.654 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:48:59.655 +05:00 [INF] HTTP POST / responded 200 in 96.0348 ms
+2024-03-15 23:48:59.657 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44315/?culture=kk-KZ&cultureUI=kk-KZ application/x-www-form-urlencoded 182 - 200 - text/html;+charset=utf-8 116.1748ms
+2024-03-15 23:48:59.695 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - -
+2024-03-15 23:48:59.698 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-15 23:48:59.699 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 0.0086 ms
+2024-03-15 23:48:59.701 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-15 23:48:59.702 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 3.8994ms
+2024-03-15 23:48:59.705 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 4.6377ms
+2024-03-15 23:48:59.743 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.4876ms
+2024-03-15 23:49:03.480 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44315/?culture=ru-RU&cultureUI=ru-RU application/x-www-form-urlencoded 182
+2024-03-15 23:49:03.489 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:49:03.490 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-15 23:49:03.491 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-15 23:49:03.491 +05:00 [ERR] TEST-LOG-ERROR-123
+2024-03-15 23:49:03.491 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-15 23:49:03.494 +05:00 [INF] Executed ViewResult - view Index executed in 3.0492ms.
+2024-03-15 23:49:03.494 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 4.5659ms
+2024-03-15 23:49:03.494 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:49:03.495 +05:00 [INF] HTTP POST / responded 200 in 5.0836 ms
+2024-03-15 23:49:03.496 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44315/?culture=ru-RU&cultureUI=ru-RU application/x-www-form-urlencoded 182 - 200 - text/html;+charset=utf-8 16.3709ms
+2024-03-15 23:49:03.530 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-15 23:49:03.532 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 0.0058 ms
+2024-03-15 23:49:03.534 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 3.6496ms
+2024-03-15 23:49:03.534 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-15 23:49:03.536 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - -
+2024-03-15 23:49:03.540 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 6.0594ms
+2024-03-15 23:49:03.555 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.6246ms
+2024-03-15 23:49:06.847 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44315/?culture=en-US&cultureUI=en-US application/x-www-form-urlencoded 182
+2024-03-15 23:49:06.854 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:49:06.854 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controller2024-03-15 23:56:14.593 +05:00 [INF] User profile is available. Using 'C:\Users\dimonti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 23:56:15.092 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 23:56:15.092 +05:00 [INF] Hosting environment: Development
+2024-03-15 23:56:15.092 +05:00 [INF] Content root path: C:\Users\dimonti\Desktop\dotNET-first-exam\first-exam
+2024-03-15 23:56:15.154 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - -
+2024-03-15 23:56:15.487 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:56:15.612 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-15 23:56:15.650 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-15 23:56:15.650 +05:00 [ERR] TEST-LOG-ERROR-123
+2024-03-15 23:56:15.667 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-15 23:56:16.006 +05:00 [INF] Executed ViewResult - view Index executed in 331.1347ms.
+2024-03-15 23:56:16.020 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 405.4241ms
+2024-03-15 23:56:16.021 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:56:16.027 +05:00 [INF] HTTP GET / responded 200 in 534.8722 ms
+2024-03-15 23:56:16.056 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-15 23:56:16.059 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 0.1680 ms
+2024-03-15 23:56:16.077 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 19.5118ms
+2024-03-15 23:56:16.083 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - - - 200 - text/html;+charset=utf-8 935.5115ms
+2024-03-15 23:56:16.122 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-15 23:56:16.164 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 33.0061ms
+2024-03-15 23:56:16.164 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - -
+2024-03-15 23:56:16.262 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 97.4869ms
+2024-03-15 23:56:18.189 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - -
+2024-03-15 23:56:18.195 +05:00 [INF] The file /images/graphics-20and-20charts_flatline.svg was not modified
+2024-03-15 23:56:18.197 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - - - 304 - image/svg+xml 8.6194ms
+2024-03-15 23:56:18.226 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/frame-20145.png - -
+2024-03-15 23:56:18.227 +05:00 [INF] The file /images/frame-20145.png was not modified
+2024-03-15 23:56:18.228 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/frame-20145.png - - - 304 - image/png 1.2169ms
+2024-03-15 23:56:18.721 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/23111_report_analysis_flatline.svg - -
+2024-03-15 23:56:18.722 +05:00 [INF] The file /images/23111_report_analysis_flatline.svg was not modified
+2024-03-15 23:56:18.723 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/23111_report_analysis_flatline.svg - - - 304 - image/svg+xml 1.2840ms
+2024-03-15 23:56:18.905 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/linkedin-20-20negative.svg - -
+2024-03-15 232024-03-15 23:59:58.068 +05:00 [INF] User profile is available. Using 'C:\Users\dimonti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 23:59:58.560 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 23:59:58.561 +05:00 [INF] Hosting environment: Development
+2024-03-15 23:59:58.561 +05:00 [INF] Content root path: C:\Users\dimonti\Desktop\dotNET-first-exam\first-exam
+2024-03-15 23:59:58.601 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - -
+2024-03-15 23:59:58.895 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:59:59.042 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-15 23:59:59.091 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-15 23:59:59.091 +05:00 [ERR] TEST-LOG-ERROR-123
+2024-03-15 23:59:59.109 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-15 23:59:59.402 +05:00 [INF] Executed ViewResult - view Index executed in 300.1858ms.
+2024-03-15 23:59:59.409 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 366.9134ms
+2024-03-15 23:59:59.410 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-15 23:59:59.415 +05:00 [INF] HTTP GET / responded 200 in 516.7965 ms
+2024-03-15 23:59:59.483 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - - - 200 - text/html;+charset=utf-8 885.3543ms
+2024-03-15 23:59:59.515 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-15 23:59:59.518 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 0.1531 ms
+2024-03-15 23:59:59.526 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 19.6232ms
+2024-03-15 23:59:59.546 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-15 23:59:59.725 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 165.6794ms
+2024-03-15 23:59:59.733 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - -
+2024-03-15 23:59:59.859 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.8051ms
+2024-03-16 00:00:01.569 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - -
+2024-03-16 00:00:01.574 +05:00 [INF] The file /images/graphics-20and-20charts_flatline.svg was not modified
+2024-03-16 00:00:01.577 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - - - 304 - image/svg+xml 7.7058ms
+2024-03-16 00:00:01.592 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/frame-20145.png - -
+2024-03-16 00:00:01.593 +05:00 [INF] The file /images/frame-20145.png was not modified
+2024-03-16 00:00:01.595 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/frame-20145.png - - - 304 - image/png 2.3771ms
+2024-03-16 00:00:02.902 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/23111_report_analysis_flatline.svg - -
+2024-03-16 00:00:02.903 +05:00 [INF] The file /images/23111_report_analysis_flatline.svg was not modified
+2024-03-16 00:00:02.904 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/23111_report_analysis_flatline.svg - - - 304 - image/svg+xml 1.2323ms
+2024-03-16 00:00:03.406 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/vector.svg - -
+2024-03-16 00:00:03.406 +052024-03-16 00:10:11.811 +05:00 [INF] User profile is available. Using 'C:\Users\dimonti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-16 00:10:12.379 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-16 00:10:12.380 +05:00 [INF] Hosting environment: Development
+2024-03-16 00:10:12.380 +05:00 [INF] Content root path: C:\Users\dimonti\Desktop\dotNET-first-exam\first-exam
+2024-03-16 00:10:12.439 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - -
+2024-03-16 00:10:12.863 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-16 00:10:12.988 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-16 00:10:13.036 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-16 00:10:13.036 +05:00 [ERR] TEST-LOG-ERROR-123
+2024-03-16 00:10:13.053 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-16 00:10:13.425 +05:00 [INF] Executed ViewResult - view Index executed in 376.9486ms.
+2024-03-16 00:10:13.432 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 443.0599ms
+2024-03-16 00:10:13.434 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-16 00:10:13.437 +05:00 [INF] HTTP GET / responded 200 in 572.6875 ms
+2024-03-16 00:10:13.474 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-16 00:10:13.488 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 0.1874 ms
+2024-03-16 00:10:13.489 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - - - 200 - text/html;+charset=utf-8 1057.0665ms
+2024-03-16 00:10:13.492 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 18.2447ms
+2024-03-16 00:10:13.547 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-16 00:10:13.587 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 27.5848ms
+2024-03-16 00:10:13.587 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - -
+2024-03-16 00:10:13.750 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 162.3587ms
+2024-03-16 00:10:15.705 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - -
+2024-03-16 00:10:15.705 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/frame-20145.png - -
+2024-03-16 00:10:15.715 +05:00 [INF] The file /images/graphics-20and-20charts_flatline.svg was not modified
+2024-03-16 00:10:15.715 +05:00 [INF] The file /images/frame-20145.png was not modified
+2024-03-16 00:10:15.718 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/graphics-20and-20charts_flatline.svg - - - 304 - image/svg+xml 13.1497ms
+2024-03-16 00:10:15.718 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/frame-20145.png - - - 304 - image/png 13.1498ms
+2024-03-16 00:10:16.014 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/23111_report_analysis_flatline.svg - -
+2024-03-16 00:10:16.015 +05:00 [INF] The file /images/23111_report_analysis_flatline.svg was not modified
+2024-03-16 00:10:16.016 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/23111_report_analysis_flatline.svg - - - 304 - image/svg+xml 1.3693ms
+2024-03-16 00:10:16.082 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/vector.svg - -
+2024-03-16 00:10:16.082 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/linkedin-20-20negative.svg - -
+2024-03-16 00:10:16.082 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/images/facebook-20-20negative.svg - -
+2024-03-16 00:10:16.082 +05:00 [INF] The file /images/vector.svg was not modified
+2024-03-16 00:10:16.082 +05:00 [INF] The file /images/linkedin-20-20negative.svg was not modified
+2024-03-16 00:10:16.082 +05:00 [INF] The file /images/facebook-20-20negative.svg was not modified
+2024-03-16 00:10:16.083 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/linkedin-20-20negative.svg - - - 304 - image/svg+xml 0.5958ms
+2024-03-16 00:10:16.083 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/vector.svg - - - 304 - image/svg+xml 0.8760ms
+2024-03-16 00:10:16.083 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/images/facebook-20-20negative.svg - - - 304 - image/svg+xml 0.6822ms
+2024-03-16 00:10:20.410 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44315/?culture=ru-RU&cultureUI=ru-RU application/x-www-form-urlencoded 182
+2024-03-16 00:10:20.423 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-16 00:10:20.423 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-16 00:10:20.456 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-16 00:10:20.456 +05:00 [ERR] TEST-LOG-ERROR-123
+2024-03-16 00:10:20.458 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-16 00:10:20.465 +05:00 [INF] Executed ViewResult - view Index executed in 8.2299ms.
+2024-03-16 00:10:20.465 +05:00 [INF] Executed action first_exam.Controllers.HomeController.Index (first-exam) in 42.1525ms
+2024-03-16 00:10:20.466 +05:00 [INF] Executed endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-16 00:10:20.466 +05:00 [INF] HTTP POST / responded 200 in 43.1732 ms
+2024-03-16 00:10:20.468 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44315/?culture=ru-RU&cultureUI=ru-RU application/x-www-form-urlencoded 182 - 200 - text/html;+charset=utf-8 58.5818ms
+2024-03-16 00:10:20.506 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - -
+2024-03-16 00:10:20.506 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - -
+2024-03-16 00:10:20.506 +05:00 [INF] HTTP GET /https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js responded 404 in 0.0060 ms
+2024-03-16 00:10:20.507 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - -
+2024-03-16 00:10:20.508 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js - - - 404 - - 1.6416ms
+2024-03-16 00:10:20.512 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 5.6223ms
+2024-03-16 00:10:20.539 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.6405ms
+2024-03-16 00:10:30.538 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44315/?culture=kk-KZ&cultureUI=kk-KZ application/x-www-form-urlencoded 182
+2024-03-16 00:10:30.553 +05:00 [INF] Executing endpoint 'first_exam.Controllers.HomeController.Index (first-exam)'
+2024-03-16 00:10:30.554 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String) on controller first_exam.Controllers.HomeController (first-exam).
+2024-03-16 00:10:30.555 +05:00 [INF] TEST-LOG-INFORMATION-123
+2024-03-16 00:10:30.555 +05:00 [ERR] TEST-LOG-ERROR-123
+20

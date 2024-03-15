@@ -40,19 +40,18 @@ namespace first_exam.Controllers
                 CultureInfo.CurrentCulture = new CultureInfo(culture);
                 CultureInfo.CurrentUICulture = new CultureInfo(culture);
             }
-            ViewBag.aboutus = _local["aboutus"];
 
             GetCulture(culture);
 
-            _logger.LogInformation("testInfo");
-            _logger.LogError("testInfo");
+            _logger.LogInformation("TEST-LOG-INFORMATION-123");
+            _logger.LogError("TEST-LOG-ERROR-123");
             return View();
         }
 
         public IActionResult Login()
         {
-            _logger.LogInformation("LoginInfo");
-            _logger.LogError("LoginInfo");
+            _logger.LogInformation("TEST-LOG-INFORMATION-123");
+            _logger.LogError("TEST-LOG-ERROR-123");
             return View();
         }
 
